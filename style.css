@@ -68,7 +68,7 @@ main {
   align-items: center;
   min-height: calc(60vh - 50px);
   /* Snížení výšky main a zmenšení mezery mezi main a navigací */
-  padding: 20px;
+  padding: 5%;
   box-sizing: border-box;
 }
 
@@ -77,8 +77,6 @@ footer {
   color: white;
   text-align: center;
   padding: 2px 0;
-  /* Zmenšení paddingu */
-  position: absolute;
   bottom: 0;
   width: 100%;
   font-family: "Spectral", serif;
@@ -87,7 +85,7 @@ footer {
 }
 
 footer p {
-  margin: 7px 0px
+  margin: 10px 0px
 }
 
 .box {
@@ -164,7 +162,7 @@ footer p {
 
 .author-description {
   margin-bottom: 10px;
-  margin-left: 100px;
+
 }
 
 .author-info a {
@@ -181,6 +179,6 @@ footer p {
 
 .author-links {
   display: flex;
-  margin-left: 100px;
+  margin: auto;
   margin-top: 20px;
 }
